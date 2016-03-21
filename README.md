@@ -1,4 +1,4 @@
-## Dynamic Binaural Synthesis on Mobile Android Devices
+## Dynamic Binaural Synthesis on Android Mobile Devices
 This app implements dynamic binaural synthesis on Android devices. All audio processing is done in real-time. It uses my [Razor AHRS head-tracker](https://github.com/ptrbrtz/razor-9dof-ahrs), but it also works without head-tracking: you can still use the GUI to move around sound sources of the bundled or your own audio scenes.
 
 ### Installing

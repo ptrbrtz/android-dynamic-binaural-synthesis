@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Android App Version Info File</comment>
+<entry key="BuildTime">16:35</entry>
+<entry key="VersionName">1.0</entry>
+<entry key="BuildDate">09-Dec-2011</entry>
+<entry key="VersionCode">1</entry>
+</properties>

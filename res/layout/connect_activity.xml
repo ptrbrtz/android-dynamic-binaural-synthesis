@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:background="@drawable/col_background">
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Please select a Razor AHRS Bluetooth Head-tracker to connect to:" />
+
+	<LinearLayout 
+	    android:layout_weight="1" 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center_vertical">
+	    <ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="15dip">
+		   	<RadioGroup 
+				android:id="@+id/razor_radiogroup"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+			</RadioGroup>
+		</ScrollView>
+
+		<Button
+		    android:id="@+id/enable_bt_button"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:enabled="true"
+		    android:gravity="center_vertical|left"
+		    android:text="I can&apos;t scan for paired Bluetooth devices as long as Bluetooth is disabled.\nClick here to enable Bluetooth." />
+
+	</LinearLayout>   
+
+ 	<TextView
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:text="You can only connect to paired Bluetooth devices. If you can&apos;t find the Razor AHRS you are looking for, please go to system options and make sure it is paired. Or continue without head-tracking." />
+
+	<LinearLayout
+    	android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"> 
+
+	    <Button
+	        android:id="@+id/connect_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_weight="1"
+	        android:enabled="false"
+	        android:text="Connect" />
+
+	</LinearLayout>   
+	<LinearLayout
+    	android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"> 
+
+	    <Button
+	        android:id="@+id/withoutrazor_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dp"
+	        android:layout_weight="1"
+	        android:enabled="true"
+	        android:text="Continue without Head-tracking" />
+
+	</LinearLayout>
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="If you have trouble starting the renderer, you can reset all App settings here:" />
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/reset_prefs_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:enabled="true"
+	        android:layout_marginTop ="10dp"
+	        android:text="Reset App Settings" />
+	</LinearLayout>
+   
+</LinearLayout>

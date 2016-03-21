@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Dynamic Binaural Synthesis</string>
+    <string name="volume_label">Scene Mix Level</string>
+</resources>

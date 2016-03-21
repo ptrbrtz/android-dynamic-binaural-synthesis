@@ -1,0 +1,7 @@
+<resources>  
+    <drawable name="col_btn_pressed">#8666</drawable>  
+    <drawable name="col_btn_focused">#8AAA</drawable>  
+    <drawable name="col_btn_default">#8FFF</drawable>
+    
+    <drawable name="col_background">#FFEEEEEE</drawable>
+</resources>  

@@ -365,7 +365,7 @@ public class PlayActivity extends Activity implements SensorEventListener {
     			"_____<br/><br/><br/>" +
     			"<h1>LICENSE AND CREDITS</h1>" +
     			"This software is licensed under the MIT License.<br/>" +
-    			"https://github.com/ptrbrtz/TODO<br/>" +
+    			"https://github.com/ptrbrtz/android-dynamic-binaural-synthesis<br/>" +
     			"<br/>" +
     			"This software uses the KISS FFT library by Mark Borgerding.<br/>" +
     			"https://sourceforge.net/projects/kissfft/<br/>" +

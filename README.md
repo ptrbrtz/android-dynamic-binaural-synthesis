@@ -17,6 +17,6 @@ Which ever way, make sure that in the end you have an *AndroidDynamicBinauralSyn
 
 If you want, have a look at the *AndroidDynamicBinauralSynthesis/Scenes* folder on the SD-card. You can easily modify audio scenes or even create new ones. You'll figure it out, it's easy, have a look at the .asd files. Just make sure the audio files you use are in the *44100 Hz* / *16 bit PCM* format as this is the only supported format right now. New scenes will pop up in the app automatically.
 
-### Compiling
+### Compiling the code yourself
 
-You can import the code as an Eclipse Android Project or try to migrate it to Android Studio. You'll have to have NDK set up and maybe do some setup in the project to get running by setting some paths. You'll also have to reference the Razor AHRS Android Library (as an Android Library Project), even if you're not using the head-tracker in the end. It can be found [here](https://github.com/ptrbrtz/razor-9dof-ahrs).
+You can import the code as an Eclipse Android Project or try to migrate it to Android Studio. You'll have to have NDK set up and maybe do some setup in the project to get it running by setting some paths. You'll also have to reference the Razor AHRS Android Library (as an Android Library Project) to make it compile, even if you're not using the head-tracker in the end. The library can be found [here](https://github.com/ptrbrtz/razor-9dof-ahrs).
